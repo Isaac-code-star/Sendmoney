@@ -1,0 +1,39 @@
+.btn{
+    &,
+    &:link,
+    &:visited{
+        position: relative;
+        top: -.3rem;
+        text-decoration: none;
+        font-family: $font-family;
+        color: $color-black;
+        font-weight : bold;
+       
+        background-color: white;
+        border: 0.19rem solid $border-color;
+        text-align: center;  
+        font-style: normal;
+        cursor: pointer;
+
+        &:hover{
+            background-color: $main-color;
+            color: $background-color;
+        }
+
+
+
+        &:not(:last-child){
+            margin-right: 2rem;
+        }
+
+        &:last-child{
+            margin-right: 2rem;
+        }
+
+    }
+
+    
+
+
+
+}

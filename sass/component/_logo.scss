@@ -1,0 +1,19 @@
+.logo{
+   position: relative;
+   top: 2.5rem;
+   margin-left: 10rem;
+
+
+    &__text{
+        position: relative;
+        top: -1.3rem;
+        font-weight: 500;
+        font-size: 2.5rem;
+        color: $main-color;
+        font-family: $font-family;
+        left: 1rem; 
+    }
+
+}
+
+
