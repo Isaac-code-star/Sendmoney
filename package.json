@@ -10,5 +10,13 @@
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^6.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Isaac-code-star/Sendmoney.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Isaac-code-star/Sendmoney/issues"
+  },
+  "homepage": "https://github.com/Isaac-code-star/Sendmoney#readme"
 }
