@@ -73,3 +73,80 @@
 }
 
 
+.read-more{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: $main-color;
+    text-decoration: none;
+}
+
+.services{
+
+   
+    position: relative;
+    background-image: url(../../images/services_bg.png);
+    height: 50vh;
+    background-size: cover;
+    background-position: top;
+    top: 160rem;
+
+    
+
+    &__heading{
+        text-align: center;
+    }
+
+    &__content{
+        position: absolute;
+        display: flex;
+        top: 15rem;
+        left: 15rem;
+    }
+
+}
+
+.content-1{
+   
+
+    &-img{
+        display: inline-block;
+
+    }
+
+    &-heading{
+        position: relative;
+        display: inline-block;
+        top: -5rem;
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+
+    &-paragraph{
+      width: 40rem;
+       color: #B7B3B3;
+       font-size: 1.3rem;
+       font-weight: 600;
+       margin-left: 10rem;
+       margin-top: -3.5rem;
+
+    }
+}
+
+.content-2{
+    margin-left: 7rem;
+
+
+
+}
+
+.paragrapg2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    opacity: 0.4;
+    margin-top: 3rem;
+    margin-left: 8rem;
+
+}
+
+

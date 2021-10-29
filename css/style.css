@@ -60,6 +60,56 @@ body {
   .illustration2__box2 {
     width: 40rem; }
 
+.read-more {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #6c63ff;
+  text-decoration: none; }
+
+.services {
+  position: relative;
+  background-image: url(../../images/services_bg.png);
+  height: 50vh;
+  background-size: cover;
+  background-position: top;
+  top: 160rem; }
+  .services__heading {
+    text-align: center; }
+  .services__content {
+    position: absolute;
+    display: flex;
+    top: 15rem;
+    left: 15rem; }
+
+.content-1-img {
+  display: inline-block; }
+
+.content-1-heading {
+  position: relative;
+  display: inline-block;
+  top: -5rem;
+  font-size: 2.5rem;
+  font-weight: 600; }
+
+.content-1-paragraph {
+  width: 40rem;
+  color: #B7B3B3;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-left: 10rem;
+  margin-top: -3.5rem; }
+
+.content-2 {
+  margin-left: 7rem; }
+
+.paragrapg2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  opacity: 0.4;
+  margin-top: 3rem;
+  margin-left: 8rem; }
+
 .border-buttom {
   border-bottom: 0.2rem solid #B7B3B3;
   box-sizing: border-box;
@@ -76,6 +126,9 @@ body {
   margin-top: .8rem;
   margin-bottom: 2rem; }
 
+.border-to-right {
+  margin-left: 70rem; }
+
 .btn-large {
   width: 12rem;
   height: 4rem; }
@@ -88,6 +141,9 @@ body {
 .margin-top {
   margin-top: 4rem; }
 
+.margin-top-md {
+  margin-top: 15rem; }
+
 .second__heading {
   position: relative;
   top: 7rem;
@@ -96,12 +152,24 @@ body {
 
 .para-modi {
   opacity: 0.75;
-  font-size: 1.3rem; }
+  font-size: 1.4rem;
+  width: 35rem;
+  font-weight: normal;
+  font-style: normal; }
+
+.primary {
+  position: absolute;
+  margin-top: 1.5rem;
+  margin-left: 1rem; }
+
+.margin-left {
+  margin-left: 3rem; }
 
 .logo {
   position: relative;
   top: 2.5rem;
-  margin-left: 10rem; }
+  margin-left: 10rem;
+  cursor: pointer; }
   .logo__text {
     position: relative;
     top: -1.3rem;
